@@ -1,0 +1,129 @@
+body {
+margin: 10px;
+background-color: #48a9a6;
+color: #e4dfda
+}
+
+a{
+  text-decoration: none;
+  color: #EDBF47;
+}
+
+a:hover{
+  color: #c1666B;
+  font-size: 20pt;
+}
+
+a.visited{
+  color: #ff9b71;
+}
+
+p{
+  color: #e4dfda;
+  font-family: "indie flower";
+}
+
+h1{
+  color: #e4dfda;
+  text-align: center;
+  font-family: "indie flower";
+  font-size: 35pt;
+}
+
+div {
+  /*border: black solid 2px;*/
+}
+
+#top{
+  height:15%;
+  /*border: black solid 2px;*/
+  margin-bottom: 10px;
+}
+
+.one{
+  width:38%;
+  height: 45%;
+  /*border: black solid 2px;*/
+  margin-bottom: 10px;
+}
+
+#right{
+  float:right;
+  width: 55%;
+}
+
+#okan{
+  float:left;
+  margin-right: 20px;
+  max-width: 60%;
+}
+
+.floater{
+  font-size: 1.3vw;
+}
+
+#left{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-around;
+overflow: hidden;
+}
+
+#left1{
+
+  height: 45%;
+  width: 85%;
+  overflow: hidden;
+}
+#aur {
+  max-width: 48%;
+  min-width: 48%;
+  height:auto;
+
+}
+
+#aurdish {
+  max-width: 48%;
+  min-width: 48%;
+  height:auto;
+  float: right;
+}
+
+
+
+#left2 {
+  height: 45%;
+  width: 85%;
+  margin-top: -110px;
+}
+
+#arrive{
+  height: 50%;
+  float:left;
+  margin-right: 20px;
+}
+
+#china{
+  height: 50%;
+  float:left;
+  margin-right: 20px;
+}
+
+#alta{
+  height: 50%;
+  float:left;
+  margin-right: 20px;
+}
+
+.two{
+  /*border: black solid 2px;*/
+  height:38%;
+  width: 30%;
+}
+
+#myflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
